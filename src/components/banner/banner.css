@@ -1,6 +1,6 @@
 .banner-main {
   width: 100%;
-  height: 70vh;
+  height: 85vh;
   /* background-color: brown; */
   display: flex;
   flex-direction: column;
@@ -26,4 +26,5 @@
   cursor: pointer;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.504);
   font-size: 1.5rem;
+  margin: 0 10px;
 }
