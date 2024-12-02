@@ -7,22 +7,21 @@ import { BrowserRouter } from 'react-router-dom';
 import WebFont from 'webfontloader';
 
 WebFont.load({
-  google: {
-    families: ['Mont']
-  },
-  active: () => {
-    console.log('Font loaded!');
-  },
+	google: {
+		families: ['Mont'],
+	},
+	active: () => {
+		console.log('Font loaded!');
+	},
 });
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-    <App />
-    </BrowserRouter>
-  </React.StrictMode>
+	<BrowserRouter>
+		<App />
+	</BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,19 +1,15 @@
-import React from 'react'
-import './home.css'
-import Navbar from '../../components/Navbar/Navbar'
-import Banner from '../../components/banner/Banner'
-import About from '../About/About'
+import React, { useEffect, useState } from 'react';
+import './home.css';
+import Navbar from '../../components/Navbar/Navbar';
+import { Outlet } from 'react-router-dom';
 
 const Home = () => {
-  return (
-    <main className='home-page'>
-        <div className="container">
-            <Navbar />
-            <Banner />
-            <About />
-        </div>
-    </main>
-  )
-}
+	return (
+		<>
+			<Navbar />
+			<Outlet />
+		</>
+	);
+};
 
-export default Home
+export default Home;
