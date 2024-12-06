@@ -1,0 +1,92 @@
+/* Footer Container */
+.footer {
+    background-color: #1a1a2e; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Inner Container */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Footer Logo and Contact */
+  .footer-left {
+    max-width: 300px;
+  }
+  
+  .footer-logo {
+    width: 10vw;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .footer-left a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-social-icons {
+    margin: 20px 0;
+  }
+  
+  .footer-social-icons a {
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+  
+  .iso-logo {
+    width: 80px;
+    margin-top: 10px;
+  }
+  
+  /* Footer Columns */
+  .footer-column {
+    max-width: 200px;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.2rem;
+    border-bottom: 2px solid #3d3d5c; /* Blue underline */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-column a:hover {
+    color: #ffd700; /* Gold color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-left, .footer-column {
+      margin-bottom: 20px;
+    }
+  }
+  
