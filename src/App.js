@@ -5,6 +5,7 @@ import Banner from "./components/banner/Banner";
 import About from "./pages/About/About.js";
 import Contact from "./pages/contact/Contact.js";
 import Courses from "./pages/courses/Courses.js";
+import EnquiryForm from "./pages/enquiry/Enquiry.js";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/enquiry" element={<EnquiryForm />} />
           </Route>
         </Routes>
       </div>
